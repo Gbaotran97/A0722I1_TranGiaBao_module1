@@ -1,0 +1,18 @@
+td {
+
+   background-color: crimson;
+text-align: center;
+    padding: 10px;
+}
+
+
+th {
+    text-align: left ;
+    padding: 5px;
+}
+.xanh{
+    color: darkblue;
+}
+.cam {
+    color: coral;
+}

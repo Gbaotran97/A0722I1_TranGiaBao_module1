@@ -1,0 +1,18 @@
+td {
+
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    text-align: left;
+    color: darkblue;
+}
+.xanh1 {
+    color: blue;
+    text-align: left;
+}
+th {
+    text-align: left;
+}
+table {
+    padding: 10px;
+}
