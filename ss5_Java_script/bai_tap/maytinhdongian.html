@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table border="0">
+        <tr>Caculator</tr>
+        <tr>
+            <th colspan="2"><input type="number" id="n1" value ="num1"></th>
+            <th colspan="2"><input type="number" id="n2" value ="num2"></th>
+        </tr>
+        <tr>
+            <th>
+                <button onclick="cong()">Addition (+)</button>
+            </th>
+            <th>
+                <button onclick="tru()">Subtraction (-)</button>
+            </th>
+            <th>
+                <button onclick="nhan()">Mutilplication (x)</button>
+            </th>
+            <th>
+                <button onclick="chia()">Division (/)</button>
+            </th>
+
+        </tr>
+
+    </table>
+</form>
+<script>
+    function cong() {
+        let a = parseInt(document.getElementById('n1').value);
+        let b = parseInt(document.getElementById('n2').value);
+        let c = a + b;
+        alert( 'kết quả :' + c);
+    }
+    function tru() {
+        let a = parseInt(document.getElementById('n1').value);
+        let b = parseInt(document.getElementById('n2').value);
+        let c = a - b;
+        alert( 'kết quả :' + c);
+    }
+    function nhan() {
+        let a = document.getElementById('n1').value;
+        let b = document.getElementById('n2').value;
+        let c = a * b;
+        alert( 'kết quả :' + c);
+    }
+    function chia() {
+        let a = document.getElementById('n1').value;
+        let b = document.getElementById('n2').value;
+        let c = a / b;
+        alert( 'kết quả :' + c);
+    }
+
+
+</script>
+
+</body>
+</html>

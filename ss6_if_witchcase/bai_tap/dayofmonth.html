@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+<table border="0">
+    <tr>
+        <th>
+            <select id="month">
+                <option value="1">tháng 1</option>
+                <option value="2">tháng 2</option>
+                <option value="3">tháng 3</option>
+            </select>
+        </th>
+        <th>
+            <button onclick="day()" >Tính số ngày</button>
+        </th>
+    </tr>
+</table>
+</form>
+<script>
+    function day() {
+        let M = document.getElementById('month').value;
+        if (M == 1) {
+            alert('Có 31 ngày');
+        } else if (M == 2) {
+            alert('Có 29 ngày');
+        } else
+            alert(' Có 30 ngày');
+
+
+    }
+</script>
+
+</body>
+</html>
