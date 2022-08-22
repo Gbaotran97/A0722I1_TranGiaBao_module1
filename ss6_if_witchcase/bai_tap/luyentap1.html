@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+<table>
+    <tr>
+        <th><input type="number" id="n1" value ="num1"></th>
+        <th><input type="number" id="n2" value ="num2"></th>
+        <th><button onclick="chia()">Kiểm tra</button></th>
+    </tr>
+    <script>
+        function chia() {
+            let a = document.getElementById('n1').value;
+            let b = document.getElementById('n2').value;
+            if (a % b == 0) {
+                alert('yes');
+
+            } else
+                alert('no')
+
+
+
+        }
+    </script>
+
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('Nhập  a: '));
+    let b = parseInt(prompt('Nhập  b: '));
+    let c = parseInt(prompt('Nhập  c: '));
+    let A = b*b - 4*a*c;
+    if (A < 0){
+        alert('vô nghiệm');
+    } else if (A == 0){
+        alert('Phương trình có nghiệm kép là : ' + (-b/(2*a)));
+    }else {
+        alert('Phương trình có là nghiệm : ' + ((-b+A)/(2*a)) + ' và ' + ((-b-A)/(2*a)) );
+    }
+</script>
+
+</body>
+</html>

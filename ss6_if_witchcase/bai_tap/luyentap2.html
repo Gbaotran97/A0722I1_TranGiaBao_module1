@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table border="0">
+        <tr>
+            <th>Nhập tuổi</th>
+        </tr>
+        <tr>
+            <th><input type="number" id="1" value=""></th>
+            <th><button onclick="check()">Kiểm tra</button></th>
+        </tr>
+    </table>
+</form>
+<script>
+    function check() {
+        let a = document.getElementById(1).value;
+        if ( a == 15) {
+            alert('Đủ điều kiện');
+        }else
+            alert('Không đủ diều kiện');
+
+    }
+</script>
+
+</body>
+</html>

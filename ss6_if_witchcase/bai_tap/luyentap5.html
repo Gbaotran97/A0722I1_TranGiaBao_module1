@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let kiemtra = parseInt(prompt('Nhập điểm kiểm tra : '));
+    let giuaky =  parseInt(prompt('Nhập giữa kỳ : '));
+    let cuoiky =  parseInt(prompt('Nhập cuối kỳ : '));
+    let trungbinh = (kiemtra + giuaky + cuoiky)/3;
+    if (trungbinh >= 8){
+        alert('HS Giỏi');
+    } else if (trungbinh >= 7){
+        alert('HS Khá');
+    } else if (trungbinh >= 5){
+        alert('HS TB');
+    } else {
+        alert('HS Yếu');
+    }
+</script>
+
+</body>
+</html>
