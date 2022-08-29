@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhap = prompt('nhập số lượng sô muốn in');
+    let demSo = 2
+    let a = 1;
+    let b = 1;
+    let tong = "1 1";
+    while(demSo<nhap) {
+        let c =a+b ;
+        tong=tong+" "+c;
+        demSo++;
+        a=b;
+        b=c ;
+    }
+    document.writeln(tong);
+
+</script>
+</body>
+</html>
